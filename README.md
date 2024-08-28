@@ -1,6 +1,13 @@
 # khalil-illumio-takehome-assignment
 Take home assessment for Illumio.
 
+## Assumptions
+1. Only version 2 flow logs are supported.
+2. All elements in flow log entry map to correct field.
+   3. Ex: 2 123456789012 eni-0a1b2c3d 10.0.1.201 198.51.100.2 443 49153 6 25 20000 1620140761 1620140821 ACCEPT OK
+      4. 49153 is port, 6 is protocol
+5. Only store first 10 (0-10) Assigned Internet Protocol Numbers
+
 ## Steps to Run
 1. Add lookup table csv file to project (I provided a sample one named lookup-table.csv)
 2. Run python parse_flow_log.py.
