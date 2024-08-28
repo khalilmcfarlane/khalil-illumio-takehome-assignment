@@ -19,8 +19,8 @@ Take home assessment for Illumio.
 ## Description 
 
 Write a program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag.   The dstport and protocol combination decide what tag can be applied. **NOTE: Only version 2 is supported.**
-Sample flow logs are included in flow_logs.txt. Lookup table is also included, but can be replaced with your own custom file.
-Just change the names in parse_flow_log.py.
+Sample flow logs are included in `flow_logs.txt`. Lookup table is also included, but can be replaced with your own custom file.
+Just change the names in `parse_flow_log.py`.
 The program will generate an output file similar to the following: 
 
 Count of matches for each tag, sample o/p shown below 
